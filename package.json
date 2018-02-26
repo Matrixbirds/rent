@@ -1,0 +1,31 @@
+{
+  "name": "rent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:watch": "nodemon",
+    "prestart:prod": "tsc",
+    "start:prod": "node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "matrixbirds",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^4.6.4",
+    "@nestjs/core": "^4.6.4",
+    "@nestjs/microservices": "^4.6.4",
+    "@nestjs/testing": "^4.6.1",
+    "@nestjs/websockets": "^4.5.8",
+    "pug": "^2.0.0-rc.4",
+    "reflect-metadata": "^0.1.12",
+    "rxjs": "^5.5.6",
+    "typescript": "^2.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.6",
+    "nodemon": "^1.15.1",
+    "ts-node": "^5.0.0"
+  }
+}

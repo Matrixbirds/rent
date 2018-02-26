@@ -1,0 +1,13 @@
+html
+    head
+        title My Site - #{title}
+        block scripts
+        script(src='/jquery.js')
+        link(rel='stylesheet',href='css/main.css')
+    body
+        div#app
+            div.sign_in
+                block content
+            #footer
+                p welcome zangaifamily@chatroom
+

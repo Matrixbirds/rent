@@ -1,0 +1,13 @@
+extend layout.pug
+
+block content
+    h1 sign_in
+    form.my-form(action="/sessions",method="post")
+        div.my-input
+            label 用户名
+            input(placeholder="请输入用户名",name="name")
+        div.my-input
+            label 密码
+            input(placeholder="请输入密码", type="password",name="password")
+        div.my-input
+            button(type="submit") 提交
